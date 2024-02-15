@@ -16,9 +16,9 @@ def sysinfo():
     term = ""
     if (os == "NACO"):
         try:
-            import lib.sysinfo as sysinfo
-            osver = sysinfo.sysver()
-            term = sysinfo.term()
+            import lib.sysinfo as _sysinfo
+            osver = _sysinfo.sysver()
+            term = _sysinfo.term()
             print("""
           ((((((         ((((((         
           ((((((((       ((((((         
